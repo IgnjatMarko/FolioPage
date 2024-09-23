@@ -1,4 +1,5 @@
 //import reactLogo from "./assets/react.svg";
+//import { AspectApp } from "./components/AspectApp";
 import { Contact } from "./components/Contact";
 import { Features } from "./components/Features";
 import { Footer } from "./components/Footer";
@@ -19,6 +20,7 @@ function App() {
       <Partners />
       <Team />
       <Footer />
+      {/* <AspectApp /> */}
     </>
   );
 }
