@@ -29,42 +29,42 @@ export const Menu = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 text-info-content rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content bg-base-100 text-info-content dark:text-white rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             <li>
-              <a href="#top">Pocetna</a>
+              <a href="#top">Početna</a>
             </li>
             <li>
-              <a href="#section1">Molerski radovi</a>
+              <a href="#molerski-radovi">Molerski radovi</a>
             </li>
             <li>
-              <a href="#section2">Dekorativni radovi</a>
+              <a href="#dekorativni-radovi">Dekorativni radovi</a>
             </li>
             <li>
-            <a href="#section3">Gipsani radovi</a>
+            <a href="#gipsani-radovi">Gipsani radovi</a>
           </li>
           <li>
-            <a href="#footer">Kontakt</a>
+            <a href="#contact">Kontakt</a>
           </li>
           </ul>
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+        <ul className="menu menu-horizontal px-1 text-white">
           <li>
-            <a href="#top" className="text-xl">Pocetna</a>
+            <a href="#top" className="text-xl">Početna</a>
           </li>
           <li>
-            <a href="#section1" className="text-xl">Molerski radovi</a>
+            <a href="#molerski-radovi" className="text-xl">Molerski radovi</a>
           </li>
           <li>
-            <a href="#section2" className="text-xl">Dekorativni radovi</a>
+            <a href="#dekorativni-radovi" className="text-xl">Dekorativni radovi</a>
           </li>
           <li>
-            <a href="#section3" className="text-xl">Gipsani radovi</a>
+            <a href="#gipsani-radovi" className="text-xl">Gipsani radovi</a>
           </li>
           <li>
-            <a href="#footer" className="text-xl">Kontakt</a>
+            <a href="#contact" className="text-xl">Kontakt</a>
           </li>
         </ul>
       </div>
